@@ -8,7 +8,12 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:#fbf7f0;color:#4a4038;font-family:Montserrat,sans-serif;font-weight:300;line-height:1.8}
-h1,h2{font-family:"Cormorant Garamond",serif;font-weight:500;line-height:1.05}
+h1,h2{
+  font-family:"Cormorant Garamond",serif;
+  font-weight:500;
+  line-height:1.05;
+  color:#a98245;
+}
 h1{font-size:clamp(6rem,19vw,13rem);margin:15px 0}
 h2{font-size:clamp(2.4rem,6vw,4.2rem);margin:10px 0 25px}
 p{max-width:650px;margin-left:auto;margin-right:auto}
@@ -26,7 +31,9 @@ nav .script{font-size:1.7rem}
 .hero h1 span{font-family:"Cormorant Garamond",serif;font-style:italic}
 .hero-subtitle{letter-spacing:.3em;font-size:.75rem}
 .date{letter-spacing:.2em}
-.button{display:inline-block;margin-top:22px;padding:13px 28px;border:1px solid currentColor;color:inherit;background:transparent;text-decoration:none;font:500 .75rem Montserrat;letter-spacing:.18em;cursor:pointer}
+.button{display:inline-block;margin-top:22px;padding:13px 28px;border:1px solid currentColor;color:inherit;background:transparent;text-decoration:none;font:500 .75rem Montserrat;letter-spacing:.18em;cursor:pointer:background:#c6a15b;
+border-color:#c6a15b;
+color:#fff;}
 .button:hover{background:#fff;color:#3f3733}
 section{padding:100px 7%;text-align:center}
 .intro{max-width:900px;margin:auto}
