@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nilmi & Nilan | Our Wedding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+<nav><div class="script">N & N</div><a href="#rsvp">RSVP</a></nav>
+<div class="hero-content">
+<p class="eyebrow">TOGETHER WITH OUR FAMILIES</p>
+<h1 class="script">Nilmi <span>&amp;</span> Nilan</h1>
+<p class="hero-subtitle">ARE GETTING MARRIED</p>
+<p class="date">YOUR WEDDING DATE</p>
+<a class="button" href="#details">OUR WEDDING</a>
+</div>
+</header>
+
+<main>
+<section class="intro">
+<p class="eyebrow">A DAY TO REMEMBER</p>
+<h2>We can't wait to celebrate with you.</h2>
+<p>With joyful hearts, we invite you to join us as we begin this beautiful new chapter together.</p>
+</section>
+
+<section class="photo"><img src="images/couple.jpg" alt="Nilmi and Nilan"></section>
+
+<section id="details" class="details">
+<div>
+<p class="eyebrow">THE CEREMONY</p>
+<h2>Wedding Ceremony</h2>
+<p>YOUR WEDDING DATE<br>YOUR CEREMONY TIME</p>
+<p>Your Ceremony Venue<br>Your Address, Sri Lanka</p>
+<a class="link" href="https://maps.google.com/" target="_blank" rel="noopener">VIEW ON GOOGLE MAPS →</a>
+</div>
+<div>
+<p class="eyebrow">THE CELEBRATION</p>
+<h2>Reception</h2>
+<p>YOUR WEDDING DATE<br>YOUR RECEPTION TIME</p>
+<p>Your Reception Venue<br>Your Address, Sri Lanka</p>
+<a class="link" href="https://maps.google.com/" target="_blank" rel="noopener">VIEW ON GOOGLE MAPS →</a>
+</div>
+</section>
+
+<section class="count">
+<p class="eyebrow">COUNTING DOWN TO FOREVER</p>
+<div id="countdown">
+<div><b id="days">00</b><small>DAYS</small></div>
+<div><b id="hours">00</b><small>HOURS</small></div>
+<div><b id="minutes">00</b><small>MINUTES</small></div>
+<div><b id="seconds">00</b><small>SECONDS</small></div>
+</div>
+</section>
+
+<section class="story">
+<div>
+<p class="eyebrow">OUR STORY</p>
+<h2>Two hearts, one beautiful journey.</h2>
+<p>We met, we laughed, we grew together, and somewhere along the way we knew we had found something truly special.</p>
+</div>
+<img src="images/story.jpg" alt="A favorite memory">
+</section>
+
+<section class="gallery">
+<p class="eyebrow">MEMORIES</p>
+<h2>A few moments we treasure.</h2>
+<div class="grid">
+<img src="images/photo1.jpg" alt="Memory 1">
+<img src="images/photo2.jpg" alt="Memory 2">
+<img src="images/photo3.jpg" alt="Memory 3">
+<img src="images/photo4.jpg" alt="Memory 4">
+</div>
+</section>
+
+<section id="rsvp" class="rsvp">
+<p class="eyebrow">PLEASE RESPOND</p>
+<h2>Will you join us?</h2>
+<p>We would love to celebrate with you.</p>
+<div class="form">
+<label for="name">Your Name</label>
+<input id="name" placeholder="Enter your name" autocomplete="name">
+<label for="attendance">Will you attend?</label>
+<select id="attendance"><option>Joyfully accepting</option><option>Regretfully declining</option></select>
+<label for="guests">Number of guests</label>
+<select id="guests"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select>
+<button class="button" onclick="sendRSVP()">💌 SEND RSVP VIA WHATSAPP</button>
+<p class="small">WhatsApp will open with your RSVP ready to send.</p>
+</div>
+</section>
+</main>
+
+<footer><div class="script">N &amp; N</div><p>With love, Nilmi &amp; Nilan.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
