@@ -29,6 +29,27 @@ nav a{color:#fff;text-decoration:none;letter-spacing:.15em;font-size:.75rem}
 nav .script{font-size:1.7rem}
 .hero-content{padding:80px 20px 40px;text-shadow:0 2px 20px #0004}
 .hero h1 span{font-family:"Cormorant Garamond",serif;font-style:italic}
+.hero h1 {
+  animation: namesDrop 3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes namesDrop {
+  0% {
+    opacity: 0;
+    transform: translateY(-160px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(12px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .hero-subtitle{letter-spacing:.3em;font-size:.75rem}
 .date{letter-spacing:.2em}
 .button{display:inline-block;margin-top:22px;padding:13px 28px;border:1px solid currentColor;color:inherit;background:transparent;text-decoration:none;font:500 .75rem Montserrat;letter-spacing:.18em;cursor:pointer:background:#c6a15b;
