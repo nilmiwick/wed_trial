@@ -23,7 +23,7 @@ p{max-width:650px;margin-left:auto;margin-right:auto}
   color:#c6a15b;
 }
 .eyebrow{letter-spacing:.25em;font-size:.72rem;font-weight:500}
-.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;text-align:center;background:linear-gradient(#1e140f2e,#1e140f40),url("images/hero.jpg") center/cover;color:#fff}
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;text-align:center;background:linear-gradient(#1e140f2e,#1e140f40),url("images/IMG_1237.jpg") center/cover;color:#fff}
 nav{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:22px 7%}
 nav a{color:#fff;text-decoration:none;letter-spacing:.15em;font-size:.75rem}
 nav .script{font-size:1.7rem}
