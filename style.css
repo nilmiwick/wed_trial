@@ -12,7 +12,7 @@ h1,h2{
   font-family:"Cormorant Garamond",serif;
   font-weight:500;
   line-height:1.05;
-  color:#a98245;
+  color:#d4af37;
 }
 h1{font-size:clamp(6rem,19vw,13rem);margin:15px 0}
 h2{font-size:clamp(2.4rem,6vw,4.2rem);margin:10px 0 25px}
