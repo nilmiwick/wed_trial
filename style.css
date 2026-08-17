@@ -30,9 +30,12 @@ nav .script{font-size:1.7rem}
 .hero-content{padding:80px 20px 40px;text-shadow:0 2px 20px #0004}
 .hero h1 span{font-family:"Cormorant Garamond",serif;font-style:italic}
 .hero h1 {
+  font-weight: 700;
+  text-shadow:
+    0 0 0.5px currentColor,
+    0 0 0.5px currentColor;
   animation: namesDrop 3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   opacity: 0;
-}
 
 @keyframes namesDrop {
   0% {
