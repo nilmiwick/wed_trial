@@ -12,7 +12,11 @@ h1,h2{font-family:"Cormorant Garamond",serif;font-weight:500;line-height:1.05}
 h1{font-size:clamp(6rem,19vw,13rem);margin:15px 0}
 h2{font-size:clamp(2.4rem,6vw,4.2rem);margin:10px 0 25px}
 p{max-width:650px;margin-left:auto;margin-right:auto}
-.script{font-family:"Hello Paris",cursive;font-weight:normal}
+.script{
+  font-family:"Hello Paris",cursive;
+  font-weight:normal;
+  color:#c6a15b;
+}
 .eyebrow{letter-spacing:.25em;font-size:.72rem;font-weight:500}
 .hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;text-align:center;background:linear-gradient(#1e140f2e,#1e140f40),url("images/hero.jpg") center/cover;color:#fff}
 nav{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:22px 7%}
