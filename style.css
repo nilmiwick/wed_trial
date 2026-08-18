@@ -119,11 +119,7 @@ nav .script {
   opacity: 0;
 }
 
-.hero h1 span {
-  font-family: "Cormorant Garamond", serif;
-  font-style: italic;
-  color: #ffffff;
-}
+
 
 /* Slow elegant movement */
 @keyframes namesDrop {
